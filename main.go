@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
+	"test3/pack" // Adjust the import path according to your project structure
 )
 
 func main() {
 	fmt.Println("Hello, World!")
+	pack.PrintMessage()
 }
 
 // This is a simple Go program that prints "Hello, World!" to the console.
